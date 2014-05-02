@@ -1,0 +1,136 @@
+body{
+font-family:"Courier New";
+background-image:url(spiro2.png);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-color: #141f1f;
+background-size:100%;}
+
+.navbar{
+	font-weight:bold;
+	height:150px;
+	background-color:black;
+	text-decoration: none;
+	font-size:1.5em;
+}
+.navbar a{
+	color:white;
+}
+.navbar a:hover{
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#homeimage{
+float:left;
+margin-left:40px;
+height: 150px;
+width: 150px;
+background-image: url(sburb1.png);
+}
+#homeimage:hover{
+background-image: url(sburb2.png);
+}
+#navbutton{
+float:left;
+text-align: center;
+height:80px;
+padding: 70px 30px 0px 30px;
+transition-duration: 0.2s;
+}
+#navbutton:hover{
+background-color:#666666;
+}
+a{
+	color:white;
+}
+a:hover{
+	color:#4dff4d;
+}
+#header{
+	font-weight:bold;
+	color:white;
+	text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+    text-align: center;
+    font-size:10em;
+}
+#header2{
+	font-weight:bold;
+	color:white;
+	text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;  
+    text-align: center;
+    font-size:5em;
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
+.caption{
+	text-align:center;
+	font-size:1em;
+	color:white;
+	background-color: black;
+	width:60%;
+	margin: 0px 20% 20px 20%;
+	padding: 10px;
+}
+#main{
+	color:white;
+	text-align:justify;
+	font-size:1em;
+	color:white;
+	background-color: black;
+	width:75%;
+	margin: 40px 12.5% 20px 12.5%;
+	padding: 25px;
+}
+#rooms{
+	color:white;
+	text-align:center;
+	font-size:1em;
+	color:white;
+	background-color: black;
+	width:60%;
+	margin: 40px 20% 20px 20%;
+	padding: 25px;
+}
+.roomtext{
+	text-align: justify;
+	margin:10px 20px 20px 30px;
+}
+.roomtext2{
+	font-family: "Comic Sans MS";
+	text-align: justify;
+	margin:10px 20px 20px 30px;
+}
+.roomtext2 span{
+	font-family:"Courier New";
+}
+
+span{
+	font-size: 0.8em;
+	font-style: italic;
+}
+.roomname{
+	font-weight:bold;
+	color:white;	
+    text-align: center;
+    font-size:1.5em;
+}
+.roomname span{
+	font-family:"Comic Sans MS";
+	font-size: 3em;
+}
+#rsvp{
+	padding-left: 20px;
+	text-align: justify;
+}

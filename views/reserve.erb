@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>HOTELSTUCK
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="sburb2.png">
+</head>
+<body>
+<div class="navbar">
+	<div id="homebutton">
+	<a href="/">
+	<div id="homeimage">
+	<!--HOME THING-->
+	</div>
+	</a>
+	</div>
+	<a href="about">
+		<div id="navbutton">
+		ABOUT
+		</div>
+	</a>
+	<a href="rooms">
+		<div id="navbutton">
+		ROOMS
+		</div>
+	</a>
+	<a href="reserve">
+		<div id="navbutton">
+		RESERVATIONS
+		</div>
+	</a>
+</div>
+<div id="header2">RESERVATIONS</div>
+<div id="main">
+<div id="rsvp">
+<form method="POST" action="/roomdata">
+FIRST NAME: <input type="text" name="firstname"><br>
+LAST NAME: <input type="text" name="lastname"><br>
+CONTACT NUMBER: <input type="number" name="number"><br>
+E-MAIL ADDRESS: <input type="email" name="email"><br>
+<a href="rooms">ROOM TYPE:</a> <select name="room">
+<option value="Single Deluxe">Single Deluxe</option>
+<option value="Serious Business Suite">Serious Business Suite</option>
+<option value="Dystopian Earth">Dystopian Earth</option>
+<option value="Respite Block">Respite Block</option>
+<option value="Texas Penthouse">Texas Penthouse</option>
+<option value="An Excellent Host">An Excellent Host</option>
+<option value="SWEET BRO AND HELLA JEFF DELUKS REWM">SBAHJ DELUKS REWM</option>
+</select> <br>
+CHECK-IN DATE: <input type="date" name="checkin"> <br>
+CHECK-OUT DATE: <input type="date" name="checkout"> <br>
+<input type="submit" value="SUBMIT">
+</form>
+</div>
+</div>
+
+
+</body>
+
+</html>

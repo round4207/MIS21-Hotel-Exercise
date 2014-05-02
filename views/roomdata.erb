@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>
+	HOTELSTUCK
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="sburb2.png">
+</head>
+<body>
+<div class="navbar">
+	<div id="homebutton">
+	<a href="/">
+	<div id="homeimage">
+	<!--HOME THING-->
+	</div>
+	</a>
+	</div>
+	<a href="about">
+		<div id="navbutton">
+		ABOUT
+		</div>
+	</a>
+	<a href="rooms">
+		<div id="navbutton">
+		ROOMS
+		</div>
+	</a>
+	<a href="reserve">
+		<div id="navbutton">
+		RESERVATIONS
+		</div>
+	</a>
+</div>
+<div id="header2">CONFIRMATION</div>
+<div id="main">
+	<p><%= @roomdata.print_message %>
+</div>
+</body>
+
+</html>
